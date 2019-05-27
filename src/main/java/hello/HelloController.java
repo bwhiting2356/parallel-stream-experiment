@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 @RestController
 public class HelloController {
-    public final String secretKey = "d690010d316bb6f90068c2dffc84fce3";
+    public final String secretKey = "<get your own dang secret key>";
 
 
     List<LatLng> coords = new ArrayList<LatLng>() {{
